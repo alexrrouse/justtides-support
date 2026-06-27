@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Just Tides — Support</title>
+  <meta name="description" content="Support and contact information for the Just Tides app.">
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #1c1c1e;
+      background: linear-gradient(160deg, #eaf4fb 0%, #e9f7f3 50%, #e7f6f6 100%);
+      min-height: 100vh;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #f2f2f7; background: linear-gradient(160deg, #0b1620 0%, #0c1a17 100%); }
+      .card { background: rgba(28,28,30,0.7); }
+      a { color: #64b5f6; }
+    }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
+    header { text-align: center; margin-bottom: 32px; }
+    h1 { font-size: 2rem; margin: 0 0 8px; }
+    .tagline { color: #5c6b73; margin: 0; }
+    @media (prefers-color-scheme: dark) { .tagline { color: #9aa7af; } }
+    .card {
+      background: rgba(255,255,255,0.7);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    h2 { font-size: 1.15rem; margin: 0 0 12px; }
+    a { color: #007aff; }
+    .email { font-size: 1.1rem; font-weight: 600; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    footer { text-align: center; color: #8a9499; font-size: 0.85rem; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Just Tides</h1>
+      <p class="tagline">Tide times at a glance.</p>
+    </header>
+
+    <div class="card">
+      <h2>Contact &amp; Support</h2>
+      <p>Questions, feedback, or a bug to report? We'd love to hear from you.</p>
+      <p class="email"><a href="mailto:arrouse88@gmail.com">arrouse88@gmail.com</a></p>
+      <p>We aim to reply within a few business days.</p>
+    </div>
+
+    <div class="card">
+      <h2>Frequently asked questions</h2>
+      <ul>
+        <li><strong>Where does the tide data come from?</strong> Tide predictions are sourced from the U.S. National Oceanic and Atmospheric Administration (NOAA).</li>
+        <li><strong>Can I use Just Tides for navigation?</strong> No. Just Tides is a tide reference for general use and should not be relied on for navigation or safety-critical decisions.</li>
+        <li><strong>How do I change stations?</strong> Tap the station name to search by name, or allow location access to automatically find the nearest station. Tap the star to save favorites.</li>
+        <li><strong>What are the tips in the app?</strong> Tips are optional and support development. They don't unlock features, and you won't receive any physical or digital goods.</li>
+        <li><strong>Why are my tide times slightly different from another source?</strong> Predictions can vary by station, datum, and data source. Just Tides shows NOAA high/low predictions for the selected station.</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>Just Tides &middot; Tide predictions courtesy of NOAA</p>
+    </footer>
+  </div>
+</body>
+</html>
